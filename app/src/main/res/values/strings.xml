@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">madt_lab_4</string>
+    <string name="back_home_btn">BACK HOME</string>
+    <string name="note_content">Note Content</string>
+    <string name="save">SAVE</string>
+    <string name="click_button_to_save">Click button to save</string>
+    <string name="welcome">WELCOME</string>
 </resources>
