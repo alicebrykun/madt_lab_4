@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -68,7 +69,8 @@ public class EditActivity extends AppCompatActivity {
                         e.printStackTrace();
                     }
                 }else{
-                    editText.setError("Content can't be empty");
+                    Toast.makeText(EditActivity.this, "Note can't be empty!", Toast.LENGTH_SHORT).show();
+                    return;
                 }
             }
         });
